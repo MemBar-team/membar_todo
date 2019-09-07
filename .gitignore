@@ -2,4 +2,4 @@
 .idea/
 manager/__pycache__/
 membar_todo/__pycache__/
-
+manager/migrations/

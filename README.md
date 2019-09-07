@@ -16,7 +16,7 @@ export MEMBAR_PORT="3306"
 pip install mysqlclient
 
 // 初期化マイグレーション
-$python manage.py makemigrations membar_todo
+$python manage.py makemigrations manager
 $python manage.py migrate
 
 // アプリ起動
