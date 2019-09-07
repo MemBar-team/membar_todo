@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'membar_todo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.environ['MEMBAR_DB_NAME'],
+        'USER': os.environ['MEMBAR_USER'],
+        'PASSWORD': os.environ['MEMBAR_PASSWORD'],
+        'HOST': os.environ['MEMBAR_HOST'],
+        'PORT': os.environ['MEMBAR_PORT']
     }
 }
 
