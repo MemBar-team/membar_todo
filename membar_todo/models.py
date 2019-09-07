@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class membar_todo(models.Model):
+class task(models.Model):
     #・タスク名 name varchar
     #・タスク詳細 contents varchar
     #・実行フラグ done_flag varchar(1)
