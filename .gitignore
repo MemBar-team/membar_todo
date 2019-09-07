@@ -1,2 +1,5 @@
 .membar_todo_nuxt/node_modules/
 .idea/
+manager/__pycache__/
+membar_todo/__pycache__/
+
