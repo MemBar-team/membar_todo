@@ -10,16 +10,22 @@ export MEMBAR_HOST="127.0.0.1"
 export MEMBAR_PORT="3306"
 ``` 
  
+```commandline 
+// 仮想環境起動
+$ source membar_todo_env/bin/activate
 
-```
+// 仮想環境のpipまとめインストール
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+
 //  mysqlclient インストール
-pip install mysqlclient
+$ pip install mysqlclient
 
 // 初期化マイグレーション
-$python manage.py makemigrations <対象APP>
-$python manage.py migrate
+$ python manage.py makemigrations <対象APP>
+$ python manage.py migrate
 
 // アプリ起動
-$python manage.py runserver
+$ python manage.py runserver
 
 ```
