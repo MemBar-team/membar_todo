@@ -1,6 +1,6 @@
 # membar_todo_nuxt
 
-> TODOプロジェクト
+> TODOリスト
 
 ## Build Setup
 
